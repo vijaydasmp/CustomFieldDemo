@@ -1,0 +1,19 @@
+<template name = "main">
+<head>
+  <title>simple</title>
+</head>
+
+<body>
+  <h1>Welcome to User Account with Custom field in User!</h1>
+
+  {{> loginButtons}}
+  
+  {{#if currentUser}}
+  <p >Logged in </p>
+  {{> userDetail}}
+  {{else}}
+   <p> Not Logged in </p>
+  {{/if}}
+</body>
+
+</template>
