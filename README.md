@@ -8,6 +8,6 @@ Steps to Reproduce the issue <br>
 2) Start the project usual <br>
 3) Create account and login <br>
 4) After login a form will appear , add name,age,gender and click save <br>
-5) After clicking "Save", look for new top level field name "detail" in Meteor.user Document, As per Meteor guide a new top level <br>
+5) After clicking "Save", look for new top level field name "detail" in Meteor.user Document, As per Meteor guide a new top level
    field should have been added , but it doesn't appear so in the Javascript console or on the server log <br>
 
